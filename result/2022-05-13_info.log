@@ -1,0 +1,14 @@
+2022-05-13 16:39:29 - DEBUG - ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆【万民提交订单】第4个接口【获取语言】请求开始☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+2022-05-13 16:39:29 - DEBUG - url：http://test.api.trollee.com:8100/trollee-gateway/basic/api.trollee/language/typeList
+2022-05-13 16:39:29 - DEBUG - method：GET
+2022-05-13 16:39:29 - DEBUG - params：
+2022-05-13 16:39:29 - DEBUG - files：
+2022-05-13 16:39:29 - DEBUG - headers：
+2022-05-13 16:39:29 - DEBUG - Starting new HTTP connection (1): test.api.trollee.com:8100
+2022-05-13 16:39:29 - DEBUG - http://test.api.trollee.com:8100 "GET /trollee-gateway/basic/api.trollee/language/typeList HTTP/1.1" 200 None
+2022-05-13 16:39:29 - DEBUG - <Response [200]>
+2022-05-13 16:39:29 - DEBUG - 接口响应:{'code': '200', 'msg': '成功.', 'data': [{'id': 2, 'name': 'English', 'currency': None, 'shortName': 'en_us', 'status': 1, 'maps': None}, {'id': 1, 'name': '中文', 'currency': None, 'shortName': 'zh_cn', 'status': 1, 'maps': None}, {'id': 3, 'name': 'ไทย', 'currency': None, 'shortName': 'th_TH', 'status': 1, 'maps': None}], 'total': 3, 'timestamp': 1652431169748}
+2022-05-13 16:39:29 - DEBUG - 响应头：{'Server': 'nginx', 'Date': 'Fri, 13 May 2022 08:39:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate, no-cache', 'Pragma': 'no-cache', 'Expires': '0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'DENY', 'X-XSS-Protection': '1 ; mode=block', 'Referrer-Policy': 'no-referrer', 'X-Cache': 'MISS'}
+2022-05-13 16:39:30 - DEBUG - ['json异常', '8']
+2022-05-13 16:39:30 - DEBUG - ['data'][0]['name']:
+2022-05-13 16:39:30 - DEBUG - ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆【万民提交订单】第4个接口【获取语言】请求结束☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
